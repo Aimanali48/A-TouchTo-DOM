@@ -1,0 +1,36 @@
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+
+
+li {
+    width : 400px;
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background-image: url(image.jpeg);
+    font-size: 18px;
+    transition: 0.2s;
+     position : relative;
+     border-radius: 100px;
+     
+  }
+  
+  /* Set all odd list items to a different color (zebra-stripes) */
+  li:nth-child(odd) {
+      width : 400px;
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+   
+  }
+  
+  /* Darker background-color on hover */
+   li:hover {
+    width : 400px;
+    background: #ddd;
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+
+
+  }

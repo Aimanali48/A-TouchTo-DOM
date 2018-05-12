@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bookmarker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+
+  <!--ps-->
+  <link href="bookmarker.css" rel="stylesheet">
+  <script src="bookmarker.js"></script>
+</head>
+
+ <body class="hm-gradient">
+    
+       <main>
+                    
+                    
+                    <div class="container">
+                     
+                            <h3 class="text-muted text-center">Bookmarker</h3>
+                                <div class="row">
+                            <div class="col-md-12">
+
+
+                            <!--hero content-->
+                                <div class="jumbotron" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+                                    <div class="text-white text-center d-flex align-items-center py-5 px-4 my-5">
+                                        <div>
+                                            <h2 style="color:white;"><strong>Bookmark Your Favourite Site</strong></h2>
+                                      
+                                            <!--form-->
+                                           <form id="myForm" autocomplete="on" > 
+                                                <div class="form-group">
+                                                  <label> Site Name:</label>
+                                                  <input type="text" class="form-control" id="site" placeholder="Website Name ..">
+                                                </div>
+                                                <div class="form-group">
+                                                  <label>Site URL</label>
+                                                  <input type="text" class="form-control" id="url" placeholder="Enter URL..">
+                                                </div>
+                                                 </div>
+                                                 <span onclick="book()" class="addBtn btn btn-default">Submit</span>
+
+
+                                               
+                                              </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6  align-self-center  ">
+                                <div id="results"></div>
+                                
+                            </div>
+                        </div>
+
+                        <hr>  
+               <footer class="footer text-center">
+                   <p> &copy; 2018 Bookmarker, Inc </p>
+               </footer>
+ </div>
+
+
+
+
+
+
+</body>
+</html>
